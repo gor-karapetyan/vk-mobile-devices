@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 body {
     background-color: #ddd;
@@ -29,3 +30,51 @@ body {
     border-style: none;
 }
 /* end header */
+
+
+/* left Content-1 */
+.android_ios_href {
+    position: relative;
+    text-decoration: none;
+    display: inline-block;
+    padding-top: 420px;
+}
+.android_ios_img {
+    position: absolute;
+    top: 0;
+}
+.button_href {
+    border: none;
+    background: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 12px;
+}
+.icons_android_ios {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.gsm1{
+    margin-left: 50px;
+}
+.gsm2 {
+    margin-left: 60px;
+}
+.android_ios_text {
+    margin-left: 5px;
+    color: #2a5885;
+}
+.mobile_devices_img {
+    padding-top: 40px;
+}
+.VK_for_mobile{
+    width: 650px;
+    padding: 25px 0;
+    text-align: center;
+}
+.h1_content {
+    font-size: 25px;
+    font-weight: 700;
+}
+/* end left Content-1 */
