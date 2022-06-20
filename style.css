@@ -78,3 +78,65 @@ body {
     font-weight: 700;
 }
 /* end left Content-1 */
+
+
+/* right Content-1 */
+.content {
+    display: flex;
+    justify-content: center;
+}
+.right_content {
+    width: 320px;
+}
+.right_sign {
+    background-color: white;
+    margin: 25px 0 0;
+    border-radius: 5px;
+    padding: 30px 25px;
+    box-sizing: border-box;
+}
+.right_vk_icon {
+    height: 60px;
+    width: 60px;
+    color: #0077ff;
+    margin: auto;
+}
+.right_vk_p {
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+.right_btn_in_up {
+    font-size: 15px;
+    height: 35px;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+}
+.sign_in_btn {
+    background-color: #0077ff;
+    color: white;
+}
+.sign_up_btn {
+    background-color: #4bb34b;
+    color: white;
+    margin-top: 10px;
+}
+.right_ID {
+    margin-top: 25px;
+    color: #818c99;
+    font-size: 14px;
+    text-align: center;
+}
+.right_ID > p {
+    display: inline;
+}
+.learn_more {
+    color: #626d7a;
+    font-weight: 600;
+}
+a {
+    text-decoration: none;
+}
+/* end right Content-1 */
