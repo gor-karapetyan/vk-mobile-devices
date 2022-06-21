@@ -1,3 +1,4 @@
+/* GLOBAL */
 * {
     margin: 0;
     padding: 0;
@@ -6,6 +7,14 @@
 body {
     background-color: #ddd;
 }
+a {
+    text-decoration: none;
+}
+.visible {
+    display: none;
+}
+/* END GLOBAL */
+
 
 /* Header */
 .header {
@@ -107,7 +116,7 @@ body {
     margin-bottom: 10px;
     font-size: 20px;
 }
-.right_btn_in_up {
+.right_btn_in_up {                /* GLOBAL */
     font-size: 15px;
     height: 35px;
     width: 100%;
@@ -122,7 +131,7 @@ body {
     background-color: #4bb34b;
     color: white;
     margin-top: 10px;
-}
+}                                 /* GLOBAL */
 .right_ID {
     margin-top: 25px;
     color: #818c99;
@@ -136,7 +145,68 @@ body {
     color: #626d7a;
     font-weight: 600;
 }
-a {
-    text-decoration: none;
+.fixed{
+    position: fixed;
+    padding-left: 180px;
 }
 /* end right Content-1 */
+
+
+/* Login mobile version */
+.kmn {               /* HEADER Login mobile version */
+    display: flex;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+}                    /* END HEADER Login mobile version */
+.login_mobile_version {
+    display: flex;
+    justify-content: center;
+}
+.loginBlock {
+    background-color: #fff;
+    width: 600px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.linkStyle {
+    color: #2d81e0;
+    font-size: 15px;
+}
+.link_mobile_img {
+    background-image: url(/images/mobile_new.png);
+    background-position: center left;
+    background-repeat: no-repeat;
+    background-size: 20px;
+    padding: 15px 25px 15px;
+    position: relative;
+    margin-left: 13px;
+}
+.link_arrow_img{
+    background-image: url(/images/blue_arrow.png);
+    width: 20px;
+    height: 15px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 10px 15px;
+    position: absolute;
+    right: 13px;
+    top: 50%;
+    margin-top: -7px;
+}
+.div_sign {
+    padding: 20px 18px;
+}
+.style_sign_in {
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    padding-top: 25px;
+}
+.style_touch {
+    font-size: 15px;
+    text-align: center;
+    padding: 10px;
+    color: #99a2ad;
+}
+/* end Login mobile version */
