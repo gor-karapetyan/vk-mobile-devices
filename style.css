@@ -5,7 +5,7 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 body {
-    background-color: #ddd;
+    background-color: #e7e8ec;
 }
 a {
     text-decoration: none;
@@ -27,10 +27,10 @@ a {
     background-image: url('images/icons8-search-16.png');
     background-position: 10px 5px;
     background-repeat: no-repeat;
-    background-color: #ddd;
+    background-color: #e7e8ec;
     font-size: 13px;
     padding: 6px 120px 5px 35px;
-    border: 1px solid #ddd;
+    border: 1px solid #e7e8ec;
     margin-left: 150px;
     border-radius: 5px;
     width: 100px;
@@ -210,3 +210,44 @@ a {
     color: #99a2ad;
 }
 /* end Login mobile version */
+
+
+/* Sign in to VK with VK ID */
+.vk_with_vk_id {
+    width: 370px;
+    padding: 30px;
+    box-sizing: border-box;
+    background: #f9f9f9;
+}
+.sign_in_id_logo {
+    margin-bottom: 15px;
+}
+.id_logo {
+    display: flex;
+    align-items: center;
+}
+.sign_in_h2_id {
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.sign_in_id_list {
+    list-style: none;
+}
+.sign_in_id_listItem {
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+}
+.sign_in_id_listItemIcon {
+    width: 30px;
+    height: 30px;
+    flex-shrink: 0;
+    margin-right: 10px;
+    color: #99a2ad;
+}
+.sign_in_id_listItemText {
+    font-size: 15px;
+    color: #6d7885;
+}
+/* end Sign in to VK with VK ID */
