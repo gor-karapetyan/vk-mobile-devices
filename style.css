@@ -212,7 +212,7 @@ a {
 /* end Login mobile version */
 
 
-/* Sign in to VK with VK ID */
+/* Sign in to VK with VK ID left */
 .vk_with_vk_id {
     width: 370px;
     padding: 30px;
@@ -230,6 +230,12 @@ a {
     font-size: 20px;
     font-weight: 400;
     margin-bottom: 20px;
+}
+.sign_in_id {
+    width: 370px;
+    height: 100%;
+    flex-shrink: 0;
+    flex-grow: 0;
 }
 .sign_in_id_list {
     list-style: none;
@@ -250,4 +256,134 @@ a {
     font-size: 15px;
     color: #6d7885;
 }
-/* end Sign in to VK with VK ID */
+/* end Sign in to VK with VK ID left */
+
+
+/* Sign in to VK with VK ID right */
+.sign_in_phone_or_email {
+    background: #fff;
+    padding: 30px 30px 20px;
+    box-sizing: border-box;
+}
+.in_phone_or_email_container, .in_phone_or_email_content {
+    height: 100%;
+}
+.in_phone_or_email_content {
+    display: flex;
+    flex-direction: column; /*tox-syun*/
+    justify-content: space-between; /*pater*/
+    box-sizing: border-box;
+}
+.in_phone_or_email_logo {
+    text-align: center;
+    margin: 15px 0;
+}
+.sign_in_phone_num {
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    color: #000;
+    margin-bottom: 15px;
+}
+.in_phone_or_email_input, .sign_in_phone_num_account {
+    margin-bottom: 15px;
+}
+.sign_in_phone_num_account {
+    font-size: 15px;
+    font-weight: 400;
+    text-align: center;
+    color: #818c99;
+}
+.in_phone_or_email_form {
+    margin-bottom: 15px;
+}
+.sign_in_inputStyle {
+    width: 100%;
+    height: 40px;
+    border: 1px solid #e1e3e6;
+    background-color: #f2f3f5;
+    border-radius: 8px;
+    box-sizing: border-box;
+    padding: 0 45px 0 15px;
+    font-size: 15px;
+    font-weight: 400;
+}
+.sign_in_email_button {
+    margin-bottom: 15px;
+}
+.sign_in_email_buttonStyle {
+    border: 0;
+    height: 35px;
+    padding: 8px 12px;
+    border-radius: 8px;
+    background-color: #4986cc;
+    /*cursor: pointer;*/
+    color: #f2f3f5;
+    width: 100%;
+
+}
+.sign_in_email_button_disabled {
+    opacity: .4;
+    cursor: default;
+}
+.sign_in_email_button_text {
+    font-size: 15px;
+    font-weight: 500;
+    text-align: center;
+}
+.sign_in_email_agreeStyle {
+    font-size: 11px;
+    color: #99a2ad;
+    text-align: center;
+}
+b {
+    font-weight: 500;
+}
+.sign_in_email_agreeLink {
+    color: #6d7885;
+    cursor: pointer;
+    font-size: inherit;
+    text-decoration: none;
+}
+.sign_in_email_agreeLinkFlex {
+    padding-top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sign_in_email_agreeLinkIcon {
+    margin-top: 1px;
+}
+.sign_in_email_agreeLinkIcon_01 {
+    width: 5px;
+    height: 5px;
+    margin-left: 3px;
+}
+/* end Sign in to VK with VK ID right */
+
+
+/* Sign in to VK with VK ID left + Sign in to VK with VK ID right */
+.sign_in_left_right_border, .sign_in_left_right_cont {
+    display: flex;
+}
+.sign_in_left_right_border {
+    height: 450px;
+    border: 1px solid #e1e3e6;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.sign_in_left_right_cont {
+    align-items: center;
+    justify-content: center;
+    width: 740px; 
+    margin: 80px 0;
+}
+.sign_in_left_right_displayCenter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.vk_with_vk_id, .sign_vk_id {
+    height: 100%;
+}
+/* end Sign in to VK with VK ID left + Sign in to VK with VK ID right */
